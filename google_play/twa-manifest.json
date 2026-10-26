@@ -1,0 +1,35 @@
+{
+  "packageId": "com.abraccio.app",
+  "host": "counts-salvador-perfume-wed.trycloudflare.com",
+  "name": "A BRACCIO — Preventivi Vocali",
+  "launcherName": "A BRACCIO",
+  "themeColor": "#2D5A43",
+  "navigationColor": "#2D5A43",
+  "backgroundColor": "#FBFBFD",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/static/icon-512.png",
+  "maskableIconUrl": "/static/icon-512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Nuovo Preventivo",
+      "short_name": "Nuovo",
+      "url": "/#/nuovo",
+      "icon": "/static/icon-192.png"
+    }
+  ],
+  "generator": "bubblewrap-cli-google",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}

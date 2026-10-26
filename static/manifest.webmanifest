@@ -1,0 +1,42 @@
+{
+  "name": "A BRACCIO — Il braccio destro di chi lavora da solo",
+  "short_name": "A BRACCIO",
+  "description": "Il braccio destro di chi lavora da solo. Tu racconta a voce, l'AI crea il preventivo perfetto e pronto per WhatsApp.",
+  "lang": "it-IT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfbfd",
+  "theme_color": "#2d5a43",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "shortcuts": [
+    {
+      "name": "Nuovo Preventivo Vocale",
+      "short_name": "Nuovo",
+      "description": "Registra una nuova nota vocale",
+      "url": "/#/nuovo",
+      "icons": [{ "src": "/static/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
